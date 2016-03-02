@@ -1,26 +1,29 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.1.5",
-  "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "name": "proxy_20",
+  "version": "1.0.0",
+  "description": "f proxy",
+  "main": "proxy.js",
   "dependencies": {
-    "ejs": "2.3.3",
-    "express": "4.13.3"
+    "colors": "^1.1.2",
+    "connect": "^3.4.1",
+    "harmon": "^1.3.1",
+    "http-proxy": "^1.13.1"
   },
-  "engines": {
-    "node": "0.12.7"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "git+https://github.com/etylat/proxy_20.git"
   },
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "proxy"
   ],
-  "license": "MIT"
+  "author": "etylat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etylat/proxy_20/issues"
+  },
+  "homepage": "https://github.com/etylat/proxy_20#readme"
 }
